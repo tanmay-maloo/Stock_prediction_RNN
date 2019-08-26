@@ -22,3 +22,6 @@ We will create a RNN model with:
 
 # TESTING
 As we are using previous 60 data points for prediction the next data points,In test data obtained from `TATA_Stock_Price_Test.csv` for predicting first 60 data points we need to concat previous 60 points from the training data i.e. `TATA_Stock_Price_Train.csv`. There are total 20 data points on which prediction were made but for next data we are using real data instead of predicted data as the confidence of prediction will decrease.
+
+**GRAPHICLA REPRESENTATION**
+![]Capture.PNG
